@@ -2,12 +2,18 @@ package pack;
 
 public class Main {
     public static void main(String[] args) {
-        Author author = new Author("Steven", "King");
-        Book book1 = new Book("It", author, 1980);
-        Book book2 = new Book("My New Book", author, 1981);
-        book2.setYear(1982);
-        System.out.println(book2.getYear());
+
+        /**
+         * в этом проекте еще выполнил задания повышенной
+         * сложности с урока по классам и объектам
+         *
+         * задания этой домашки отмечены комментариями
+         */
+
+        Book book = new Book("My Book", new Author("Arseniy", "Borodin"), 2022);
+        System.out.println(book);
 
 
     }
+
 }
